@@ -1,0 +1,100 @@
+#image{
+     width: 150px;
+    border-radius: 50%;
+    border: 6px solid #63ec6a;
+    margin-bottom: 10px;
+    text-shadow: none;
+}
+
+body {
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    
+    color: #ffffff;
+    flex-direction: column;
+    background: linear-gradient(green, yellow);
+}
+
+h1, h2, h3, h4, p{
+    text-shadow: 0px 0px 1px black;
+}
+
+#bday-age {
+    background: #bdba0e;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+}
+
+#bday-date {
+    margin: 0;
+    background: #0c0e0d;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift-section {
+    margin-top: 50px;
+}
+
+.gift-title {
+    margin-bottom: 10px;
+}
+
+.gift-hint {
+    margin-top: 0;
+}
+
+.gift-img {
+   
+    margin: 0 auto;
+    width: 400px;
+    height: 400px;
+    border: 6px solid white;
+    border-radius: 10px;   
+   background-image: url("images/gift.png"); 
+   background-size: cover;
+}
+    
+
+
+#gift-img-happy:hover {
+    background-image: url("images/gif.gif");
+}
+
+#gift-img-hot:hover {
+    background-image: url("images/I\ Love\ You\ Flirt\ GIF\ by\ Holler\ Studios.gif");
+}
+
+#gift-img-genius:hover{
+    background-image: url("images/Genius\ Good\ One\ GIF\ by\ Rockwell\ Trading.gif");
+}
+
+#gift-img-badass:hover {
+    background-image: url("images/Looking\ Good\ Super\ Bowl\ GIF\ by\ NFL.gif");
+}
+
+#gift-img-cheers {
+    height: 200px;
+}
+
+#gift-img-cheers:hover{
+
+    background-image: url("images/happy.gif");
+
+}
+#footer {
+    font-style: italic;
+    width: 400px;
+    margin: 40px auto 20px;
+}
+
+a {
+    color: white;
+}
